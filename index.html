@@ -1,5 +1,115 @@
-This project creates a simple, static HTML webpage for Saveetha Engineering College. It includes basic sections for college information, departments, admission details, and contact information.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveetha Engineering College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Saveetha Engineering College</h1>
+            <p>Empowering Minds, Shaping Futures</p>
+        </div>
+    </header>
 
-.
-├── index.html
-└── styles.css
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Saveetha Engineering College</h2>
+            <p>Saveetha Engineering College (SEC), a premier institution of higher education in Chennai, India, was established with a vision to foster academic excellence and innovation. Affiliated with Anna University and accredited by NAAC 'A' Grade, SEC is committed to providing world-class technical education and research opportunities.</p>
+            <p>Our sprawling campus is equipped with state-of-the-art infrastructure, including modern laboratories, libraries, and student amenities, creating an ideal environment for learning and growth.</p>
+        </div>
+    </section>
+
+    <section id="departments" class="section bg-light">
+        <div class="container">
+            <h2>Departments</h2>
+            <div class="department-grid">
+                <div class="department-item">
+                    <h3>Computer Science and Engineering</h3>
+                    <p>Focuses on core computer science principles, algorithms, data structures, and emerging technologies like AI, ML, and Data Science.</p>
+                </div>
+                <div class="department-item">
+                    <h3>Electronics and Communication Engineering</h3>
+                    <p>Covers VLSI design, embedded systems, signal processing, and telecommunications, preparing students for the dynamic electronics industry.</p>
+                </div>
+                <div class="department-item">
+                    <h3>Mechanical Engineering</h3>
+                    <p>Offers a strong foundation in mechanical design, thermodynamics, fluid mechanics, and manufacturing processes, with specializations in robotics and automotive engineering.</p>
+                </div>
+                <div class="department-item">
+                    <h3>Civil Engineering</h3>
+                    <p>Deals with infrastructure development, structural analysis, environmental engineering, and construction management, contributing to nation-building.</p>
+                </div>
+                <div class="department-item">
+                    <h3>Electrical and Electronics Engineering</h3>
+                    <p>Explores power systems, control systems, instrumentation, and renewable energy sources, crucial for sustainable development.</p>
+                </div>
+                <div class="department-item">
+                    <h3>Biomedical Engineering</h3>
+                    <p>Integrates engineering principles with medical and biological sciences to design and develop medical devices and healthcare solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions" class="section">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Saveetha Engineering College offers a wide range of undergraduate and postgraduate programs. We are committed to attracting bright and motivated students who aspire to excel in their chosen fields.</p>
+            <h3>Undergraduate Programs:</h3>
+            <ul>
+                <li>B.E. Computer Science and Engineering</li>
+                <li>B.E. Electronics and Communication Engineering</li>
+                <li>B.E. Mechanical Engineering</li>
+                <li>B.E. Civil Engineering</li>
+                <li>B.E. Electrical and Electronics Engineering</li>
+                <li>B.Tech Information Technology</li>
+                <li>B.Tech Artificial Intelligence and Data Science</li>
+                <li>B.E. Biomedical Engineering</li>
+            </ul>
+            <h3>Postgraduate Programs:</h3>
+            <ul>
+                <li>M.E. Computer Science and Engineering</li>
+                <li>M.E. Embedded Systems Technologies</li>
+                <li>M.E. Power Electronics and Drives</li>
+                <li>M.Tech Data Science</li>
+            </ul>
+            <p>For detailed eligibility criteria, application process, and important dates, please visit our official admissions portal or refer to the latest prospectus.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We welcome your queries and feedback. Please feel free to reach out to us through the following channels:</p>
+            <address>
+                <strong>Saveetha Engineering College</strong><br>
+                Thandalam, Chennai - 602 105,<br>
+                Tamil Nadu, India.<br><br>
+                <strong>Phone:</strong> +91-44-26810333, +91-44-26810334<br>
+                <strong>Email:</strong> <a href="mailto:info@saveetha.ac.in">info@saveetha.ac.in</a><br>
+                <strong>Website:</strong> <a href="https://www.saveetha.ac.in/" target="_blank">www.saveetha.ac.in</a>
+            </address>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Saveetha Engineering College. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
